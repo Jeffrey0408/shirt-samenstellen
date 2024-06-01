@@ -6,7 +6,7 @@ body{
     align-items: center;
 }
 
-main, .man {
+main, .overzicht{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,11 @@ main, .man {
 h1 {
     text-align: center;
     padding: 2em;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
