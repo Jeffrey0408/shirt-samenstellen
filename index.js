@@ -88,5 +88,7 @@ document.querySelector("klaar").addEventListener("click", () => {
     footballEffect();
 });
 
+// https://medium.com/@teamtechsis/timers-and-intervals-in-javascript-c5f4b3450486 // 
+
 
    
