@@ -6,11 +6,37 @@ body{
     align-items: center;
 }
 
-main, .overzicht{
+main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.vorige {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.volgende {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    font-size: large;
+}
+
+.overzicht {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .shirt {
@@ -19,12 +45,7 @@ main, .overzicht{
     max-width: 70%;
 }
 
-h1 {
-    text-align: center;
-    padding: 2em;
-}
-
-#input {
+.shirtOverloop {
     display: flex;
     justify-content: center;
 }
@@ -32,41 +53,28 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    position: absolute;
-    margin-top: 4.5em;
-    margin-left: 3.8em;
+    margin-top: 3em;
+    margin-left: 12em;
     font-size: 30px;
+    position: absolute;
     color: white;
 }
 
 h3 {
     display: flex;
     justify-content: center;
-    position: absolute;
-    margin-top: 1.15em;
-    margin-left: 1em;
+    margin-top: 1.25em;;
+    margin-left: 2.8em;
     font-size: 125px;
+    position: absolute;
     color: white;
 }
 
-.vorige {
-    display: flex;
-    justify-content: baseline;
-    margin-right: auto;
+
+
+#klaar {
+    margin: 2em;
+    font-size: larger;
 }
 
-.volgende {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-}
 
-.shirtTekst {
-    display: flex;
-    justify-content: end;
-}
-
-.shirtNummer {
-    display: flex;
-    justify-content: end;
-}
