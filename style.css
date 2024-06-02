@@ -75,10 +75,16 @@ h3 {
 }
 
 
-
 #klaar {
     margin: 2em;
     font-size: larger;
+}
+
+#football {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    animation: 2s infinite;
 }
 
 
