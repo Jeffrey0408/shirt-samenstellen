@@ -49,7 +49,7 @@ volgendeButton.addEventListener("click", volgendeClub);
 
 function userActivity() {
     if ("Verander") {
-                alert('Wil je nog verder gaan?');
+        alert('Wil je nog verder gaan?');
     }
 }
 
