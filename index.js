@@ -49,9 +49,6 @@ volgendeButton.addEventListener("click", volgendeClub);
 // --- veranderen van band ---//
 
 let band = document.querySelector(".band");
-
-console.log(band)
-
 let bandStatus = false;
 
 function bandKnop() {
@@ -75,3 +72,21 @@ function userActivity() {
 }
 
 setInterval(userActivity, 140000);
+
+
+// --- time out effect --- //
+function footballEffect() {
+    const football = document.querySelector("#football");
+    football.classList.add("groter")
+
+    setTimeout(() => {
+        football.classList.remove("groter");
+        }, 2000); 
+}
+
+document.querySelector("klaar").addEventListener("click", () => {
+    footballEffect();
+});
+
+
+   

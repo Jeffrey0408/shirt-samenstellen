@@ -42,7 +42,7 @@ main{
 .shirt {
     display: flex;
     justify-content: center;
-    max-width: 70%;
+    max-width: 50%;
 }
 
 .shirtOverloop {
@@ -53,9 +53,9 @@ main{
 h2 {
     display: flex;
     justify-content: center;
-    margin-top: 3em;
-    margin-left: 12em;
-    font-size: 30px;
+    margin-top: 2.5em;
+    margin-left: 10.25em;
+    font-size: 25px;
     position: absolute;
     color: white;
 }
@@ -63,9 +63,9 @@ h2 {
 h3 {
     display: flex;
     justify-content: center;
-    margin-top: 1.25em;;
-    margin-left: 2.8em;
-    font-size: 125px;
+    margin-top: 1em;;
+    margin-left: 2.55em;
+    font-size: 100px;
     position: absolute;
     color: white;
 }
