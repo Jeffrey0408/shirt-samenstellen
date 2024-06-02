@@ -28,7 +28,7 @@ shirtNummerButton.addEventListener("click", veranderShirtNummer);
 const vorigeButton = document.querySelector(".vorige")
 const volgendeButton = document.querySelector(".volgende")
 
-    let shirt = document.querySelector(".shirt");
+let shirt = document.querySelector(".shirt");
 const shirtClub = ["images/Ajax.png", "images/Korea.png", "images/Japan.png"];
 let huidigeClubIndex = 0;
 
@@ -44,6 +44,7 @@ function volgendeClub() {
 
 vorigeButton.addEventListener("click", vorigeClub);
 volgendeButton.addEventListener("click", volgendeClub);
+
 
 
 // --- veranderen van band ---//
@@ -72,21 +73,6 @@ function userActivity() {
 }
 
 setInterval(userActivity, 140000);
-
-
-// --- time out effect --- //
-function footballEffect() {
-    const football = document.querySelector("#football");
-    football.classList.add("groter")
-
-    setTimeout(() => {
-        football.classList.remove("groter");
-        }, 2000); 
-}
-
-document.querySelector("klaar").addEventListener("click", () => {
-    footballEffect();
-});
 
 // https://medium.com/@teamtechsis/timers-and-intervals-in-javascript-c5f4b3450486 // 
 
