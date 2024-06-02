@@ -46,7 +46,28 @@ vorigeButton.addEventListener("click", vorigeClub);
 volgendeButton.addEventListener("click", volgendeClub);
 
 
+// --- veranderen van band ---//
 
+let band = document.querySelector(".band");
+
+console.log(band)
+
+let bandStatus = false;
+
+function bandKnop() {
+    bandStatus = !bandStatus
+
+    if (bandStatus == true){
+        band.src = "images/Ajax-band.png";
+    }  else { 
+        band.src = "images/band-2.png";
+    }
+}
+
+band.addEventListener('click', bandKnop);
+
+
+// --- Ineterval melding --- //
 function userActivity() {
     if ("Verander") {
         alert('Wil je nog verder gaan?');
