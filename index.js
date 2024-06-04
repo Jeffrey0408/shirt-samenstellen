@@ -10,6 +10,8 @@ function veranderShirtTekst() {
 
 shirtTekstButton.addEventListener("click", veranderShirtTekst);
 
+// Dlo (addEventListener en testContext) en mevrouw L. Pool //
+
 
 // --- Nummer op shirt --- //
 const shirtNummerInput = document.querySelector("#shirtNummerInput");
@@ -22,6 +24,8 @@ function veranderShirtNummer(){
 }
 
 shirtNummerButton.addEventListener("click", veranderShirtNummer);
+
+// Dlo (addEventListener en testContext) en mevroouw L. Pool (zelfde als bij eerste functie gedaan) // 
 
 
 // --- Buttons shirt --- //
@@ -45,6 +49,8 @@ function volgendeClub() {
 vorigeButton.addEventListener("click", vorigeClub);
 volgendeButton.addEventListener("click", volgendeClub);
 
+// Dlo (Arrays), W3Schools. (z.j.). JavaScript Arrays. Geraadpleegd van https://www.w3schools.com/js/js_arrays.asp, Mijn neef geraadpleegd; hij heeft het mij uitgelegd en ik het geannalysserd en mijn eigen gemaakt.  //
+
 
 
 // --- veranderen van band ---//
@@ -64,6 +70,8 @@ function bandKnop() {
 
 band.addEventListener('click', bandKnop);
 
+// Dlo (Lightbulb opdracht) //
+
 
 // --- Ineterval melding --- //
 function userActivity() {
@@ -74,7 +82,7 @@ function userActivity() {
 
 setInterval(userActivity, 140000);
 
-// https://medium.com/@teamtechsis/timers-and-intervals-in-javascript-c5f4b3450486 // 
+// Dlo en TechSis Team. (z.j.). Timers and Intervals in JavaScript. Geraadpleegd van https://medium.com/@teamtechsis/timers-and-intervals-in-javascript-c5f4b3450486 // 
 
 
    
