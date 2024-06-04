@@ -64,7 +64,7 @@ function bandKnop() {
     if (bandStatus == true){
         band.src = "images/Ajax-band.png";
     }  else { 
-        band.src = "images/band-3.png";
+        band.src = "images/band-2.png";
     }
 }
 
